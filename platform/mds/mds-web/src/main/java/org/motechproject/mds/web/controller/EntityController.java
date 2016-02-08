@@ -67,7 +67,7 @@ public class EntityController extends MdsController {
                 EntityDto entityDto = new EntityDto();
                 entityDto.setNonEditable(entity.isNonEditable());
                 entityDto.setReadOnlyAccess(entity.isReadOnlyAccess());
-                entityDto.setName(entity.getName());
+                entityDto.setName("test");
 
                 byModule.get(NO_MODULE).add(entityDto);
             } else {
